@@ -1,0 +1,97 @@
+{
+  "info": {
+    "name": "Redis Playground - Items CRUD",
+    "description": "CRUD API for Items with Redis cache-aside. Create/Update/Delete invalidate cache; GET reads from cache when available.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://localhost:7164"
+    },
+    {
+      "key": "itemId",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Items",
+      "item": [
+        {
+          "name": "Get all items",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/api/items",
+            "description": "List all items. Cached under RedisPlayground:items:all. First call = cache miss, next = hit."
+          }
+        },
+        {
+          "name": "Get item by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/api/items/{{itemId}}",
+            "description": "Get one item. Use {{itemId}} from Create response or Get all. Cached under RedisPlayground:item:{id}."
+          }
+        },
+        {
+          "name": "Create item",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Learn Redis\",\n  \"description\": \"Caching with cache-aside pattern\"\n}"
+            },
+            "url": "{{baseUrl}}/api/items",
+            "description": "Creates item, invalidates list cache, caches the new item. Copy returned id into {{itemId}} for Get/Put/Delete."
+          }
+        },
+        {
+          "name": "Update item",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Learn Redis (updated)\",\n  \"description\": \"Cache invalidation on write\"\n}"
+            },
+            "url": "{{baseUrl}}/api/items/{{itemId}}",
+            "description": "Updates item and refreshes cache. Invalidates list cache."
+          }
+        },
+        {
+          "name": "Delete item",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "{{baseUrl}}/api/items/{{itemId}}",
+            "description": "Deletes item and removes it from cache. Invalidates list cache."
+          }
+        }
+      ]
+    }
+  ]
+}

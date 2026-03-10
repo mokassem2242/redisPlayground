@@ -1,0 +1,41 @@
+@redisPlayground_HostAddress = https://localhost:7109
+@baseUrl = {{redisPlayground_HostAddress}}/api/items
+
+### ----- Items CRUD (Redis cache-aside) -----
+
+### List all (cache key: RedisPlayground:items:all)
+GET {{baseUrl}}
+Accept: application/json
+
+### Get one by id (cache key: RedisPlayground:item:{id})
+# Replace {id} with an id from list response
+GET {{baseUrl}}/00000000-0000-0000-0000-000000000001
+Accept: application/json
+
+### Create
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "name": "Learn Redis",
+  "description": "Caching with cache-aside pattern"
+}
+
+### Update (replace id with real id)
+PUT {{baseUrl}}/00000000-0000-0000-0000-000000000001
+Content-Type: application/json
+
+{
+  "name": "Learn Redis (updated)",
+  "description": "Cache invalidation on write"
+}
+
+### Delete (replace id with real id)
+DELETE {{baseUrl}}/00000000-0000-0000-0000-000000000001
+
+###
+@redisPlayground_HostAddress = http://localhost:5109
+GET {{redisPlayground_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

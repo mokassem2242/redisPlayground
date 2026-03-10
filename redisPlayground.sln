@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redisPlayground", "redisPlayground.csproj", "{1B6FC94E-4631-460F-941E-A0B3612AAE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redisPlayground.Tests", "redisPlayground.Tests\redisPlayground.Tests.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6FC94E-4631-460F-941E-A0B3612AAE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6FC94E-4631-460F-941E-A0B3612AAE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6FC94E-4631-460F-941E-A0B3612AAE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6FC94E-4631-460F-941E-A0B3612AAE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83109CDC-B4FD-48A7-85C0-0E26B0363C92}
+	EndGlobalSection
+EndGlobal
