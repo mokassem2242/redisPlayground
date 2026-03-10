@@ -4,7 +4,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   unit-tests:
@@ -27,13 +27,3 @@ jobs:
 
       - name: Run unit tests
         run: dotnet test redisPlayground.Tests/redisPlayground.Tests.csproj --no-build -c Release --verbosity normal
-
-  frist_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: printmyname
-        run: echo "as salam alykum."
-      - name: printmyname
-        run: |
-           echo "as salam alykum. number two######"
-           echo "as salam alykum. number two@@@@@@@@@@"
