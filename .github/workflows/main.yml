@@ -7,5 +7,7 @@ jobs:
       - name: printmyname
         run: echo "as salam alykum."
       - name: printmyname
-        run: echo "as salam alykum. number two######"
+        run: |
+           echo "as salam alykum. number two######"
+           echo "as salam alykum. number two@@@@@@@@@@"
   
