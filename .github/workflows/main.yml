@@ -1,0 +1,11 @@
+name: mokasem workflow
+on: workflow_dispatch
+jobs:
+  frist_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printmyname
+        run: echo "as salam alykum."
+      - name: printmyname
+        run: echo "as salam alykum. number two######"
+  
