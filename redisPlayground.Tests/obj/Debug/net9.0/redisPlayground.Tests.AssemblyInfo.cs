@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("redisPlayground.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f32bfbe7b585a432b3f8d5a243257811af8c32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69b6e9ac99613649186746f962bba6778837e90c")]
 [assembly: System.Reflection.AssemblyProductAttribute("redisPlayground.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("redisPlayground.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

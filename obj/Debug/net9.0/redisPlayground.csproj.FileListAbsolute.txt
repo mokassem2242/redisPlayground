@@ -167,3 +167,18 @@ C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\runtimes\w
 C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\obj\project.assets.json
 C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\obj\redisPlayground.Tests.csproj.nuget.dgspec.json
 C:\Users\Mohammad KASEM\source\repos\redisPlayground\obj\Debug\net9.0\redisPlayground.sourcelink.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\obj\Debug\net9.0\redisPlayground.Tests.sourcelink.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\appsettings.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\MvcTestingAppManifest.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\postman\Redis Playground - Items CRUD.postman_collection.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.deps.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.runtimeconfig.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.staticwebassets.endpoints.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests.deps.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests.runtimeconfig.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests\obj\Debug\net9.0\MvcTestingAppManifest.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests\obj\Debug\net9.0\redisPlayground.Tests.sourcelink.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests\obj\project.assets.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\bin\Debug\net9.0\redisPlayground.Tests\obj\redisPlayground.Tests.csproj.nuget.dgspec.json
+C:\Users\Mohammad KASEM\source\repos\redisPlayground\bin\Debug\net9.0\redisPlayground.Tests\obj\Debug\net9.0\MvcTestingAppManifest.json
