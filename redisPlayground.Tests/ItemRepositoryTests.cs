@@ -2,7 +2,7 @@ using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+    using Microsoft.Extensions.Options;
 using Moq;
 using redisPlayground.Data;
 using redisPlayground.Models;
