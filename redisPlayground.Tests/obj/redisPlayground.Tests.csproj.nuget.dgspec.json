@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj": {}
+    "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj": {
+    "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj",
         "projectName": "redisPlayground",
-        "projectPath": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj",
+        "projectPath": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj",
         "packagesPath": "C:\\Users\\Mohammad KASEM\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,14 +97,14 @@
         }
       }
     },
-    "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj": {
+    "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj",
         "projectName": "redisPlayground.Tests",
-        "projectPath": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj",
+        "projectPath": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\redisPlayground.Tests.csproj",
         "packagesPath": "C:\\Users\\Mohammad KASEM\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,8 +126,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj": {
-                "projectPath": "c:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj"
+              "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj": {
+                "projectPath": "C:\\Users\\Mohammad KASEM\\source\\repos\\redisPlayground\\redisPlayground.csproj"
               }
             }
           }
