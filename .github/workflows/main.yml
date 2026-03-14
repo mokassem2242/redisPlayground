@@ -27,3 +27,49 @@ jobs:
 
       - name: Run unit tests
         run: dotnet test redisPlayground.Tests/redisPlayground.Tests.csproj --no-build -c Release --verbosity normal
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Publish
+        run: dotnet publish -c Release -o ./publish
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: redistestApi-build
+          path: ./publish
+
+      - name: Check files
+        run: ls -R ./publish
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download published files
+        uses: actions/download-artifact@v4
+        with:
+          name: redistestApi-build
+          path: ./publish
+
+      - name: Check downloaded files
+        run: ls -R ./publish
+
+      - name: Deploy
+        run: |
+          echo "Deploy your API from ./publish"
+          # put your real deploy command here
